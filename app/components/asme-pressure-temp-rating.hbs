@@ -1,0 +1,21 @@
+<h2>ASME</h2>
+<label for="inputProjectNumber">Ask a question about Ember:</label>
+<Input
+  @id="inputProjectNumber"
+  @type="text"
+  @value={{this.inputProjectNumber}}
+/>
+<label for="inputOne">Ask a question about Ember:</label>
+<Input
+  @id="inputOne"
+  @type="text"
+  @value={{this.inputOne}}
+/>
+<label for="inputTwo">Ask a question about Ember:</label>
+<Input
+  @id="inputTwo"
+  @type="text"
+  @value={{this.inputTwo}}
+/>
+{{this.inputOne}} + {{this.inputTwo}} = {{this.sumOneTwo}}
+{{yield}}
